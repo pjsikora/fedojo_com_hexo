@@ -81,9 +81,10 @@ deploy:
   type:
 
 
-plugins:
-- hexo-generator-robotstxt
-- hexo-generator-sitemap
+#plugins:
+#- hexo-server
+#- hexo-generator-robotstxt
+#- hexo-generator-sitemap
 
 robotstxt:
   useragent: "*"
