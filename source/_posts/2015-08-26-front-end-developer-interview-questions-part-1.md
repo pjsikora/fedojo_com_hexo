@@ -25,13 +25,13 @@ Elements of box model:
 
 So when you have a box described with CSS:
 
-<pre class="lang:default decode:true " >.box {
+<pre class="line-numbers"><code class="language-javascript">.box {
 width: 100px;
 height: 200px;
 border: 10px solid #000;
 margin: 20px;
 padding: 30px;
-}</pre> 
+}</code></pre> 
 
 what is total width/height and total height of the box?
 
@@ -55,23 +55,23 @@ _What is clearfix?_
 This is mostly connected with floating elements in HTML / CSS. In case you have a container with floating elements you need to clear floatings in the last element of childrens of this container. In oldschool way:
 
 HTML code: 
-<pre class="lang:default decode:true " >&lt;div class="container"&gt;
+<pre class="line-numbers"><code class="language-html">&lt;div class="container"&gt;
 &lt;div class="floating"&gt;&lt;/div&gt;
 &lt;div class="floating"&gt;&lt;/div&gt;
 
 &lt;div class="clearboth"&gt;&lt;/div&gt;
 &lt;/div&gt;
-</pre> 
+</code></pre> 
 
 CSS
 
-<pre class="lang:default decode:true " >.container {}
+<pre class="line-numbers"><code class="language-css">.container {}
 .floating { width: 100px; height: 100px; float: left; }
-.clearboth { clear: both }</pre> 
+.clearboth { clear: both }</code></pre> 
 
 Now when you have :before and :after pseudoelements you dont need to waste one more tag in HTML for clearing floats. You just need to add a CSS to container:
 
-<pre class="lang:default decode:true " >.container:before,
+<pre class="line-numbers"><code class="language-css">.container:before,
 .container:after {
   content: "";
   display: table;
@@ -79,11 +79,11 @@ Now when you have :before and :after pseudoelements you dont need to waste one m
 
 .container:after {
   clear: both;
-}</pre> 
+}</code></pre> 
 
 or create a standard reusable clearfix in same way:
 
-<pre class="lang:default decode:true " >.container:before,
+<pre class="line-numbers"><code class="language-css">.container:before,
 .clearfix:after {
   content: "";
   display: table;
@@ -91,6 +91,5 @@ or create a standard reusable clearfix in same way:
 
 .clearfix:after {
   clear: both;
-}</pre> 
+}</code></pre> 
 
- 

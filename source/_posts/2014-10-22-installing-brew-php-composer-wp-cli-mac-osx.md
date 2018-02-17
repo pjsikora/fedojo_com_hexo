@@ -2,6 +2,7 @@
 title: 'Installing Brew, PHP, Composer, WP-CLI (MAC OSX)'
 tags:
   - brew
+  - homebrew
   - composer
   - PHP
   - wp-cli

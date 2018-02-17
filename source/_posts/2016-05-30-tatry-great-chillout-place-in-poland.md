@@ -2,7 +2,7 @@
 title: Tatry - Great chillout place in Poland
 id: 782
 categories:
-  - Uncategorized
+  - Holiday
 date: 2016-05-30 16:56:48
 tags:
 ---

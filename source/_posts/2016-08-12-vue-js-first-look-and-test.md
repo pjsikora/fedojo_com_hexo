@@ -2,7 +2,12 @@
 title: ScreenshotMaker with Vue.js - First look at Vue.js (HTTP and simple component)
 id: 939
 categories:
-  - Uncategorized
+  - Front End
+  - Vue.js
+  - ScreenshotMaker
+  - JavaScript
+  - HTTP
+  - AJAX
 date: 2016-08-12 15:34:05
 tags:
 ---

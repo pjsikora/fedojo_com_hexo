@@ -3,15 +3,18 @@ title: WordPress - Disable all plugins without PHPMyAdmin
 id: 730
 categories:
   - WordPress
+  - PHPMyAdmin
 date: 2016-01-25 15:38:47
 tags:
+  - WordPress
+  - PHPMyAdmin
 ---
 
 How many times some of your friends/customers has problem with Wordpress? You are checking and there is blank page or 500 error? Than you are checking logs and you see problem with some installed and active plugin. Disabling it without access to the WP Backend and PHPMyAdmin can be tricky so how to do it with short code?
 
 Lets list all wp-options table. Here we can see that we have stored information about active plugins:
 
-<pre class="lang:default decode:true " >&lt;?php
+<pre class="line-numbers"><code class="language-php">&lt;?php
 require_once('wp-config.php');
 
 $servername = DB_HOST;
@@ -37,11 +40,10 @@ if (mysqli_num_rows($result) &gt; 0) {
 }
 
 mysqli_close($conn);
-?&gt;
-</pre> 
+?&gt;</code></pre> 
 
 With code: 
-<pre class="lang:default decode:true " >require_once('wp-config.php');
+<pre class="line-numbers"><code class="language-php">require_once('wp-config.php');
 
 $servername = DB_HOST;
 $username = DB_USER;
@@ -79,13 +81,11 @@ if (mysqli_num_rows($result) > 0) {
 }
 
 mysqli_close($conn);
-?>
-
-</pre> 
+?></code></pre> 
 
 Lets disable all plugins:
 
-<pre class="lang:default decode:true " >&lt;?php
+<pre class="line-numbers"><code class="language-php">&lt;?php
 require_once('wp-config.php');
 
 $servername = DB_HOST;
@@ -109,7 +109,7 @@ if ($conn-&gt;query($sql) === TRUE) {
 }
 
 mysqli_close($conn);
-?&gt;
+?&gt;</code>
 </pre> 
 
 Remember that after your changes its recommended to remove this files from server because somebody else can check/disable your plugins!

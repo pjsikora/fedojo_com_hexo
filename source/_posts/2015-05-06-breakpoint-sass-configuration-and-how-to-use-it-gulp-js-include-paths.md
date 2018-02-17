@@ -7,6 +7,9 @@ categories:
   - SASS
 date: 2015-05-06 17:30:55
 tags:
+  - CSS
+  - GitHub
+  - SASS
 ---
 
 Are you frustrated when you create media queries for elements in another file? Or maybe you are tired to define them each time?

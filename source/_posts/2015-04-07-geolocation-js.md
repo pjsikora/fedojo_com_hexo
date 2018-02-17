@@ -4,9 +4,12 @@ id: 623
 categories:
   - JavaScript
   - Libraries
-  - Uncategorized
+  - Geolocation
 date: 2015-04-07 23:09:36
 tags:
+  - JavaScript
+  - Libraries
+  - Geolocation
 ---
 
 I was testing a geolocation API in HTML5 on my Iphone5 and I needed to check how good is this API and started to working Geolocation.js. This library has one target - simplify the process of working with HTML5 API and Google Maps API for drawing the map with route.

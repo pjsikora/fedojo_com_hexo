@@ -3,9 +3,11 @@ title: Merging new .pot file with .po. Managing translations in WordPress
 tags:
   - translations
   - Wordpress
+  - po files
 id: 613
 categories:
-  - WordPress
+  - translations
+  - Wordpress
 date: 2015-01-09 06:27:30
 ---
 

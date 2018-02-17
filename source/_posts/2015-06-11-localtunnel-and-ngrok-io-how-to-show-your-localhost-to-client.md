@@ -3,6 +3,8 @@ title: Localtunnel and NGRok.io - how to show your localhost to client
 id: 657
 categories:
   - Software
+  - localtunnel
+  - ngrok
 date: 2015-06-11 12:54:56
 tags:
 ---
@@ -22,6 +24,6 @@ Thats it! Voila!
 
 If you want to share your virtual host:
 
-<pre class="lang:default decode:true " >ngrok http -host-header=your.host 80</pre> 
+<pre class="line-numbers"><code class="language-javascript">ngrok http -host-header=your.host 80</code></pre> 
 
 PS. Thanks **Anna Migas **for your tip! :)

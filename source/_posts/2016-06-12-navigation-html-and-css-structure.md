@@ -7,6 +7,9 @@ categories:
   - Uncategorized
 date: 2016-06-12 12:55:04
 tags:
+  - CSS
+  - HTML
+  - Uncategorized
 ---
 
 Few times I had explain how to create a good navigation structure, so here it comes:

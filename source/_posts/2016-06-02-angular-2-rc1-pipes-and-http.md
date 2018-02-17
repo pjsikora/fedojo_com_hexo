@@ -3,8 +3,15 @@ title: Angular 2 RC1 - Pipes and Http
 id: 805
 categories:
   - Angular 2
+  - TypeScript
+  - Angular 2 Pipes
+  - Angular 2 HTTP
 date: 2016-06-02 10:04:32
 tags:
+  - Angular 2
+  - TypeScript
+  - Angular 2 Pipes
+  - Angular 2 HTTP
 ---
 
 Ive been trying to build simple filtering in application -> Show-ur-bugs ([https://github.com/fedojo/show-ur-bugs](https://github.com/fedojo/show-ur-bugs)). 

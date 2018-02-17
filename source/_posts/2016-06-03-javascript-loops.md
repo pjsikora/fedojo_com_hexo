@@ -4,9 +4,12 @@ id: 815
 categories:
   - Angular 2
   - JavaScript
-  - Uncategorized
+  - TypeScript
 date: 2016-06-03 08:04:14
 tags:
+  - Angular 2
+  - JavaScript
+  - TypeScript
 ---
 
 In my [previous post](http://fedojo.com/angular-2-rc1-pipes-and-http/) Ive described using Pipes with data loaded through Http request. First comment was about using loop:

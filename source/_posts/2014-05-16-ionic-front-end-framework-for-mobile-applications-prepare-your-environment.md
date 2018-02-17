@@ -1,7 +1,5 @@
 ---
-title: >-
-  Ionic - front end framework for mobile applications - prepare your
-  environment.
+title: Ionic - front end framework for mobile applications - prepare your environment.
 tags:
   - android
   - cordova
@@ -20,13 +18,11 @@ date: 2014-05-16 16:07:04
 
 Have you been working with Angularjs? Do you need to create an mobile app based on this framework? IONIC is created for you.
 
-<!--more-->
-
 “The goal of what we’re trying to do is basically provide the most compelling alternative to building with the iOS or Android native SDKs and any other native SDKs that we end up supporting in the future,” Lynch says. He notes labor and cost savings with Web development as opposed to the native variety. “Instead of spending half a year on two entirely different code bases for iOS and Android, you can build just one with HTML5.”
 
 &nbsp;
 
-**Quick start**
+## Ionic - Quick start
 
 1\. Firstly you will need to install ionic and phonegap (cordova) on your machine.
 <pre style="color: #111111;">sudo npm install -g phonegap</pre>

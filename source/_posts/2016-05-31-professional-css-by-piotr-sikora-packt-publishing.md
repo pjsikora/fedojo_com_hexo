@@ -4,9 +4,14 @@ id: 741
 categories:
   - CSS
   - SASS
-  - Uncategorized
+  - Book
+  - Professional CSS
 date: 2016-05-31 01:13:11
 tags:
+  - CSS
+  - SASS
+  - Book
+  - Professional CSS
 ---
 
 It's been a long time... I should tell about this book. But... there wasnt a way to do that online so here it is!

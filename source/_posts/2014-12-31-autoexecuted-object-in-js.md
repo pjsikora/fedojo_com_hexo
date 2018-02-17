@@ -9,7 +9,7 @@ tags:
 
  Sometimes you will need to create autoexecuted object (for example in case of load/document ready events). Have you tried to do it this way?
 
-<pre class="lang:default decode:true " >(function() {
+<pre class="line-numbers"><code class="language-javascript">(function() {
         // Elements
         var z;
 
@@ -28,11 +28,13 @@ tags:
 
         })();
 
-    })();</pre> 
+    })();</code></pre> 
+
+## Autoexecuted object
 
 So what will you do if you want to have external API to your "autoexecuted object"? You can do it this way:
 
-<pre class="lang:default decode:true " >var auto = (function() {
+<pre class="line-numbers"><code class="language-javascript">var auto = (function() {
         // Elements
         var z;
 
@@ -54,13 +56,13 @@ So what will you do if you want to have external API to your "autoexecuted objec
 
     })();
 
-auto.initObj();</pre> 
+auto.initObj();</code></pre> 
 
 Currently we are creating variable to which we are assigning an object. This object return an API with one method which is equal an internalObjec init method.
 
-But what we can do if we do not ant to do it this way and we dont want to create any new object assigned to variable?
+But what we can do if we do not ant to do it this way and we don't want to create any new object assigned to variable?
 
-<pre class="lang:default decode:true " >(function() {
+<pre class="line-numbers"><code class="language-javascript">(function() {
         // Elements
         var z;
 
@@ -82,6 +84,6 @@ But what we can do if we do not ant to do it this way and we dont want to create
 
     })();
 
-init();</pre> 
+init();</code></pre> 
 
 So this.init = internalObj.init assigns to window (global) function a function from our internalObj - init.

@@ -12,9 +12,7 @@ When you are creating a email template the most known process after develop proc
 &nbsp;
 
 &nbsp; 
-<pre class="lang:js decode:true " >
-
-var onLoaded = function () {
+<pre class="line-numbers"><code class="language-javascript">var onLoaded = function () {
   var query = document.querySelectorAll('[style]'),
       len =   query.length,
       arrayOfStyles = [],
@@ -57,8 +55,6 @@ var onLoaded = function () {
   document.body.appendChild(style);
 }
 
-document.addEventListener('DOMContentLoaded', onLoaded, false);
-
-</pre> 
+document.addEventListener('DOMContentLoaded', onLoaded, false);</code></pre> 
 
 Just append it to your HTML file and in style tag it will gather all classes. The HTML markup will be updated too (style attribute will be removed and class will be added). 

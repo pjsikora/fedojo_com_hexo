@@ -17,11 +17,11 @@ Basic ternary conditional syntax:
 
 So if condition is true expr1 will be invoked if not expr2 will be invoked. This code equals:
 
-<pre class="lang:default decode:true " >if (condition) {
+<pre class="line-numbers"><code class="language-javascript">if (condition) {
   expr1
 } else {
   expr2
-}</pre> 
+}</code></pre> 
 
 Basic usage is pretty easy so ... how to make it more useful?
 
@@ -29,19 +29,19 @@ For example you want to set value of variable. It is counter incremented by 1\. 
 
 In "normal" code in which you are using if/else statement it should look:
 
-<pre class="lang:default decode:true " >if (currentElement++ &gt;= this.length-1) {
+<pre class="line-numbers"><code class="language-javascript">if (currentElement++ &gt;= this.length-1) {
  currentElement = 0;
 }
 else {
  currentElement++;
-}</pre> 
+}</code></pre> 
 
 As a ternary it looks like this:
-<pre class="lang:default decode:true " > currentElement = (currentElement++ >= arr.length-1) ? 0 : currentElement++;</pre> 
+<pre class="line-numbers"><code class="language-javascript">currentElement = (currentElement++ >= arr.length-1) ? 0 : currentElement++;</code></pre> 
 
 Another example of ternary conditional in more complexed case:
 
-<pre class="lang:default decode:true " >function fn5() {
+<pre class="line-numbers"><code class="language-javascript">function fn5() {
   return 5;
 }
 
@@ -55,15 +55,15 @@ function go(settings) {
 }
 
 go(); // will return 10
-go(2); // will return 5</pre> 
+go(2); // will return 5</code></pre> 
 
 Where can you use this code? For example in your class constructor when you want to pass to class an object with settings and check:
-1\. If object exists (and if its not add default values)
-2\. If object exists check if its values exists (and if not set default value)
+1. If object exists (and if its not add default values)
+2. If object exists check if its values exists (and if not set default value)
 
 Last piece of code gives you deeper analyse of overvwritting object properties based on ternary condition. Firstly we define defaultConfObj with all default values. Than we define confObj which will be used later as a configuration object. parseSettings function is comparing defaultConfObj with confObj. If some property is not defined in confObj it will be overwritten with default value. In function start we are checking if settings are setted. If yes settings are parsed if not default settings object is applied.
 
-<pre class="lang:default decode:true " >var defaultConfObj = {
+<pre class="line-numbers"><code class="language-javascript">var defaultConfObj = {
   element: '#wrapper',
   loop: true,
   navigation: false
@@ -89,4 +89,4 @@ var start = function(settings) {
   return objSettings;
 };
 
-console.log(start(confObj));</pre> 
+console.log(start(confObj));</code></pre> 

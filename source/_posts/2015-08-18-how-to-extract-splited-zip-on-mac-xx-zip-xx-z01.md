@@ -24,6 +24,6 @@ name.zNN
 how to resolve it:
 Combine files
 
-<pre class="lang:default decode:true " >zip -s 0 name.zip --out combined.zip</pre> 
+<pre class="line-numbers"><code class="language-javascript">zip -s 0 name.zip --out combined.zip</code></pre> 
 
 Than you can extract your archive with default ZIP app in Finder.

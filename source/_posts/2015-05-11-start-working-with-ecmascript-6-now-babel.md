@@ -6,7 +6,9 @@ tags:
 id: 639
 categories:
   - JavaScript
-  - Uncategorized
+  - Babel
+  - EcmaScript 6
+  - ES6
 date: 2015-05-11 22:00:08
 ---
 
@@ -18,7 +20,7 @@ So what you have to do?
 
 ## Install Babel on your machine!
 
-<pre class="lang:default decode:true " >npm install -g babel</pre> 
+<pre class="line-numbers"><code class="language-javascript">npm install -g babel</code></pre> 
 
 And now you can easily write your first code. When you finish it you can compile your file and see how it works in browser.
 
@@ -30,7 +32,7 @@ Now you can check how ES6 code compiles to ES5 code.
 ## Configure gulp to work with your ES6 files
 
 Firstly install babel for gulp:
-<pre class="lang:default decode:true " >npm install --save-dev gulp-babel</pre> 
+<pre class="line-numbers"><code class="language-javascript">npm install --save-dev gulp-babel</pre> 
 
 Then add a task to your gulpfile.js
 
@@ -41,7 +43,7 @@ gulp.task("default", function () {
   return gulp.src("src/app.js")
     .pipe(babel())
     .pipe(gulp.dest("dist"));
-});</pre> 
+});</code></pre> 
 
 And everything is working now as you wished.
 

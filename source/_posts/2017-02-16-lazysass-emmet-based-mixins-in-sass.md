@@ -20,8 +20,7 @@ Ive been working on my blog's new skin for last few months - last few months bec
 
 Project was started during writing of [my book](https://www.packtpub.com/web-development/professional-css3) and was called as a single file [_shorts.sass](https://github.com/fedojo/usefullmixins-sass/blob/master/_fedojo.shorts.sass). It was a collection of short forms of well known CSS rules.
 
-<pre class="line-numbers">
-<code class="language-sass">=tdn
+<pre class="line-numbers"><code class="language-sass">=tdn
     text-decoration: none
 
 =tdu
@@ -52,8 +51,7 @@ Project was started during writing of [my book](https://www.packtpub.com/web-dev
     display: inline-block
 
 =m0a
-    margin: 0 auto</code>
-</pre>
+    margin: 0 auto</code></pre>
 
 It was used to shorten the most known CSS rules in final code. For example
 
