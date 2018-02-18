@@ -16,7 +16,6 @@ date: 2014-04-22 20:54:24
 
 Im still workin on grunt.js task runner. And in the last project I had a problem after which I had to restart my grunt server.
 
-<!--more-->
 <pre class="lang:default decode:true">Fatal error: spawn EMFILE</pre>
 That was a problem which occures in my terminal.
 

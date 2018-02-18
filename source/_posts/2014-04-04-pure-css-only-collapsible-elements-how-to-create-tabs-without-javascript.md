@@ -12,8 +12,6 @@ date: 2014-04-04 12:00:46
 
 Pure CSS collapsible (with on click) containers/elements/whateva.
 
-<!--more-->
-
 [http://jsfiddle.net/u3Cjz/](http://jsfiddle.net/u3Cjz/)
 
 CSS Code

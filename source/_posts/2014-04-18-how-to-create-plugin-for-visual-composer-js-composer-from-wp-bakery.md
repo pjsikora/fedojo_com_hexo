@@ -17,7 +17,6 @@ date: 2014-04-18 13:56:11
 
 What is Visual Composer I think that I dont have to tell to anybody who is workin with WordPress. Its actually one of the most known commercial plugins for WordPress used in almost every template on [ThemeForest](http://themeforest.net/?ref=iclicksol "Theme Forest").
 
-<!--more-->
 
 All VIsual Composer elements are based on shortcodes. So when you need to make a new component you need to create a shortcode. Lets begin creation of our new Visual Composer element. In file functions.php of our theme lets write:
 <pre class="lang:php decode:true">function sc_slide_func( $atts, $content) {
@@ -34,19 +33,18 @@ All VIsual Composer elements are based on shortcodes. So when you need to make a
 } 
 
 add_shortcode( 'sc_slide', 'sc_slide_func');</pre>
-**What is going on in this code?**
+
+## What is going on in this code?
 Firstly we are defining function with two parameters,
 
-*   attributes of element - $atts (in WP editor for example [shortcode attr="1"]
-*   content of element - $content (in WP editor [shortcode] our content [/shortcode] )
+* attributes of element - $atts (in WP editor for example [shortcode attr="1"]
+* content of element - $content (in WP editor [shortcode] our content [/shortcode] )
 Function extract is changing our parameters from array $atts to variables which we can use in our returned code.
 
 Function add_shortcode is binding our function to shortcode available in WP Editor.
 
-&nbsp;
-
-**How to connect it with Visual Composer
-**When we have a simple (or more complex) shortcode available we can start binding it with Visual Composer. Write this code in functions.php:
+## How to connect it with Visual Composer
+When we have a simple (or more complex) shortcode available we can start binding it with Visual Composer. Write this code in functions.php:
 <pre class="lang:php decode:true">vc_map( array(
     "name" =&gt; __("Component name", "js_composer"), // add a name
     "base" =&gt; "sc_slide", // bind with our shortcode
@@ -70,8 +68,5 @@ Function add_shortcode is binding our function to shortcode available in WP Edit
 
 // This function provides a functionality of adding content elements into element
 class WPBakeryShortCode_SC_Slide extends WPBakeryShortCodesContainer {}</pre>
-&nbsp;
-
-&nbsp;
 
 [![preview_4.0.5](http://fedojo.com/wp-content/uploads/2014/04/preview_4.0.5.jpg)](http://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431?ref=roqkai)

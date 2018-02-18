@@ -14,14 +14,12 @@ Sometimes as a Front End Developer you will need to create a prestashop theme. Y
 
 &nbsp;
 
-**What you will need?**
+## What you will need to install PrestaShop?
 
 1.  Server (FTP/SFTP) login/password/host
 2.  MySQL database login/password/dbname/host
-&nbsp;
 
-**Installation**
-
+## How to install PrestaShop
 1.  Copy file to your server.
 2.  Change write permisions for folders
 <pre class="lang:default decode:true ">~/config/
@@ -36,31 +34,22 @@ Sometimes as a Front End Developer you will need to create a prestashop theme. Y
 ~/translations/
 ~/upload/
 ~/download/</pre>
-&nbsp;
 3.  Run installation process (write URL in browser)
 &nbsp;
 
-**After Installation process**
-
+## After Installation process
 1.  Remove install folder
 2.  Change admin folder name to for example folder123
-&nbsp;
 
-**Access Back-end of prestashop**
+## Access Back-end of prestashop 
 <pre class="lang:default decode:true">http://yoururl/admin123</pre>
 admin123 is your choosed folder name for admin folder.
 
-&nbsp;
-
-**Intallation of PrestaShop theme**
-
+## Intallation of PrestaShop theme
 1.  Copy needed modules to modules dir
 2.  Copy theme to themes dir
 3.  Open prestashop BE
 4.  Preferences &gt; Themes  and choose your new theme.
 5.  Sometimes in new theme you will need to regenerate your thumbnails. Regenerate them and...
-&nbsp;
-
-&nbsp;
 
 Thats it!
